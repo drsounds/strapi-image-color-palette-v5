@@ -51,7 +51,7 @@ const convert = (rgbObj, format) => {
     }
 };
 
-module.exports = ({ strapi }) => ({
+export default ({ strapi }) => ({
     async generate(url, mime) {
         try {
             const settings = getService(strapi, 'settings').get();

@@ -19,7 +19,7 @@ const register = ({ strapi }: { strapi: Core.Strapi }) => {
     });
 
     // Add the colors attribute to the file content type
-    strapi.plugin('upload').contentTypes.file.attributes.colors = {
+    strapi.plugin('upload').contentTypes.file.schema.attributes.colors = {
         type: 'json',
     };
 };
