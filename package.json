@@ -3,6 +3,7 @@
   "version": "1.1.3",
   "keywords": [],
   "type": "commonjs",
+  "main": "strapi-server.js",
   "exports": {
     "./package.json": "./package.json",
     "./strapi-admin": {
@@ -22,6 +23,9 @@
   },
   "files": [
     "dist"
+  ],
+  "contributors": [
+    "Cody Marcoux <cody@studio123.ca>"
   ],
   "scripts": {
     "build": "strapi-plugin build",
